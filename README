@@ -1,0 +1,1 @@
+to use, place remotesite.php on some remote server and update serverUrl in xdajax.js to the absolute URL to where the remotesite.php is located.  The function switch in the remotesite.php is for you to perform whatever external function you want on the remote server.

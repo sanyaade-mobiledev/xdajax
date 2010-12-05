@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>XD &rsaquo; AJAX</title>
+    <script type="text/javascript" src="js/xdajax.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/md5.js"></script>
+    <script type="text/javascript" src="js/site.js"></script>
+</head>
+<body>
+    <form action="#" id="login_form">
+        <input id="login_username" type="text" value="username" /><br>
+        <input id="login_password" type="password" value="password" /><br>
+        <input type="button" value="Login" onclick="NS.auth.login();" />
+    </form>
+    <div id="spinner" style="display: none; position: absolute; top: 10px; left: 200px;"><img src="img/loading.gif" alt="loading" /></div>
+    <div id="content"></div>
+</body>
+</html>
